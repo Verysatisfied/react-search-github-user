@@ -17,7 +17,7 @@ function App() {
             {/* Render the Dashboard component here */}
             <Dashboard />
           </PrivateRoute>
-          <Redirect to="/login" />{" "}
+          <Redirect to="/login" />
           {/* Redirect unauthenticated users to the login page */}
         </Switch>
       </Router>

@@ -19,7 +19,7 @@ const Navbar = () => {
       {isUser ? (
         <button
           onClick={() => {
-            logout({ returnTo: window.location.orogin });
+            logout({ returnTo: window.location.origin });
           }}
         >
           logout
